@@ -1,0 +1,28 @@
+@import "./utilities/variables.sass"
+
+.hidden
+  display: none
+
+.can-cancel
+  &:before 
+    content: "Running"
+  &:hover
+    background-color: $red !important
+    &:before
+      content: "Cancel?"
+
+.can-remove
+  &:before 
+    content: "Remove"
+  &:hover
+    background-color: $red !important
+    &:before
+      content: "Remove"
+
+.can-run
+  &:hover
+    background-color: $green !important
+
+.left-space
+  margin-top:  .5em
+  margin-left: 7em
