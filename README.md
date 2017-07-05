@@ -2,4 +2,4 @@
 
 A rental gear management system
 
-Requires Flask
+`pip install -r requirements.txt` to get all dependecies
