@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_template, request, url_for
 from flask_compress import Compress
 import ssl
 
@@ -14,6 +14,10 @@ context.load_cert_chain('./ssl/server.crt', './ssl/server.key')
 @app.route("/")
 def hello():
     return "Hello World!"
+
+@app.route("/login")
+def login():
+	return render_template('login.html', name=request.args.get('name', ''))
 
 # Start App
 app.run(host='127.0.0.1', port=5000, 
