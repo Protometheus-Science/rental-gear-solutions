@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>RGS Wireframe</title>
+
+		<!-- jackQuery -->
+		<script>
+			function Tag(x) {
+				if (x[0] == "#") {
+					this.main = document.getElementById(x.slice(1));
+				}
+				if (x[0] == ".") {
+					this.main = document.getElementsByClassName(x.slice(1));
+				}
+				this.set = function(c) { this.main.innerHTML = c; }
+				this.append = function(c) { this.main.innerHTML += c; }
+				this.value = function() { return this.main.value; }
+				this.show = function(s) { this.main.style.display = "block"; }
+				this.hide = function(s) { this.main.style.display = "none"; }
+			}
+			var $ = function(name) { return new Tag(name); }
+		</script>
+
+		<script type="text/javascript">
+			
+		</script>
+
+		<style type="text/css">
+			div {
+				border: 1px black solid;
+				padding: 2%;
+			}
+
+			table {
+				width: 100%;
+			}
+
+			td, th {
+				border: 1px solid black;
+				text-align: center;
+			}
+
+		</style>
+	</head>
+	<body>
+		<div style="margin: 5% 30% 0 30%">
+			<table id="actions">
+				<tr>
+					<td>
+						<input type="input" name="search" placeholder="Search...">
+						<button onclick="">Search</button>
+					</td>
+					<td>
+						<button onclick="">Edit Inventory</button>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<button onclick="">Sign Selected Gear Out</button>
+					</td>
+					<td>
+						<button onclick="">Sign Gear In</button>
+					</td>
+				</tr>
+			</table>
+
+			
+			<div id="main">
+				<form action="/check_out">
+					<table id="items">
+						<tr>
+							<th>Select</th>
+							<th>Item</th>
+							<th>Store/Count</th>
+							<th>Model</th>
+							<th>Size</th>
+						</tr>
+						<tr>
+							<td><input type="checkbox" name="items" value="Giant (S)"></td>
+							<td>Bike</td>
+							<td>Aspen (3)</td>
+							<td>Giant</td>
+							<td>S</td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" name="items" value="Giant (S)"></td>
+							<td>Bike</td>
+							<td>Aspen (6)</td>
+							<td>Giant</td>
+							<td>M</td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" name="items" value="Giant (S)"></td>
+							<td>Bike</td>
+							<td>Aspen (4)</td>
+							<td>Giant</td>
+							<td>L</td>
+						</tr>
+					</table>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
