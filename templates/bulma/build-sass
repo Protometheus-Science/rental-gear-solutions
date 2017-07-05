@@ -1,0 +1,2 @@
+#!/bin/bash
+sass bulma.sass --style compressed > ../bulma.min.css
