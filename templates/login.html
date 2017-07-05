@@ -8,6 +8,12 @@
 		<section class="hero is-white is-fullheight">
 			<div class="hero-body">
 				<div class="container">
+					{% if error %}
+					<div class="notification is-danger">
+						<button class="delete"></button>
+					<b>Uh Oh!</b> looks like {{ error }}.
+					</div>
+					{% endif %}
 					<h1 class="title">Welcome {{ name }}</h1>
 					<form method="POST" action="/auth">
 						<p class="control has-addons">
