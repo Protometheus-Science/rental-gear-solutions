@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<title>RGS</title>
-		<link rel="stylesheet" type="text/css" href="./bulma.min.css">
+		<link rel="stylesheet" type="text/css" href="static/bulma.min.css">
 
 	</head>
 	<body>
@@ -9,11 +9,10 @@
 			<div class="hero-body">
 				<div class="container">
 					<h1 class="title">Welcome {{ name }}</h1>
-					<h2 class="title-2">Login</h2>
 					<form method="POST" action="/auth">
 						<p class="control has-addons">
 							<input class="input is-info is-large" type="password" name="password" placeholder="Password..." required>
-							<input class="button is-info is-large" type="submit" value="Submit">
+							<input class="button is-info is-large" type="submit" value="Login">
 						</p>
 					</form>
 				</div>
