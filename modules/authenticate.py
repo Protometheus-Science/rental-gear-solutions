@@ -1,10 +1,10 @@
 import hashlib
 
-def authenticate_password(password):
+def password(test):
 	filepass = open("./user/login.key", "r").read()
-	hashpass = hashlib.md5(password).hexdigest()
+	hashpass = hashlib.md5(test).hexdigest()
 	return filepass == hashpass
 
 if __name__ == '__main__':
-	print authenticate_password("12345")
-	print authenticate_password("1234")
+	print password("12345")
+	print password("1234")
