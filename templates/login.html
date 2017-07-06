@@ -2,6 +2,7 @@
 	<head>
 		<title>RGS</title>
 		<link rel="stylesheet" type="text/css" href="static/bulma.min.css">
+		<script type="text/javascript" src="static/jackQuery.js"></script>
 
 	</head>
 	<body>
@@ -9,8 +10,8 @@
 			<div class="hero-body">
 				<div class="container">
 					{% if error %}
-					<div class="notification is-danger">
-						<button class="delete"></button>
+					<div class="notification is-danger" id="error">
+						<button class="delete" onclick="$('#error').hide()"></button>
 					<b>Uh Oh!</b> looks like {{ error }}.
 					</div>
 					{% endif %}
