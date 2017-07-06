@@ -26,6 +26,10 @@
 		</script>
 
 		<style type="text/css">
+			.main-body {
+				margin: 5% 30% 0 30%;
+			}
+
 			div {
 				border: 1px black solid;
 				padding: 2%;
@@ -43,12 +47,13 @@
 		</style>
 	</head>
 	<body>
-		<div style="margin: 5% 30% 0 30%">
+		<div class="main-body">
 			<table id="actions">
 				<tr>
 					<td>
 						<input type="input" name="search" placeholder="Search...">
 						<button onclick="">Search</button>
+						<button onclick="">Filters</button>
 					</td>
 					<td>
 						<button onclick="">Edit Inventory</button>
@@ -64,7 +69,6 @@
 				</tr>
 			</table>
 
-			
 			<div id="main">
 				<form action="/check_out">
 					<table id="items">
