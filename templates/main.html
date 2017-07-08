@@ -8,7 +8,7 @@
 
 		<style type="text/css">
 			.main-body {
-				margin: 5% 30% 0 30%;
+				margin: 5% 25% 0 25%;
 			}
 
 			div {
@@ -55,14 +55,20 @@
 					<table id="items">
 						<tr>
 							<th>Select</th>
-							{% for column in columns %}
+							{% for column, _ in columns.iteritems() %}
 							<th>{{ column }}</th>
 							{% endfor %}
 						</tr>
 						<tr id="filters">
-							<td>Filters:</td>
-							{% for column in columns %}
-							<td>{{ column }}</td>
+							<td>
+								<button onclick="update_filters();">Update</button>
+							</td>
+							{% for column, options in columns.iteritems() %}
+							<th>
+								{% for option in options %}
+								{{option}}: <input type="checkbox" value="{{column}}-{{option}}"><br>
+								{% endfor %}
+							</th>
 							{% endfor %}
 						</tr>
 						{% for item in items %}
@@ -74,7 +80,7 @@
 									{% endfor %}
 								</select> / {{item.count}}
 							</td>
-							{% for column in columns %}
+							{% for column, _ in columns.iteritems() %}
 							<td id="{{column}}-{{item[column]}}">{{item[column]}}</td>
 							{% endfor %}
 						</tr>
