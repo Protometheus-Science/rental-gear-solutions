@@ -3,7 +3,8 @@
 	<head>
 		<title>RGS Wireframe</title>
 
-		<script type="text/javascript" src="static/jackQuery.js"></script>
+		<script type="text/javascript" src="static/js/jackQuery.js"></script>
+		<script type="text/javascript" src="static/js/inventory.js"></script>
 
 		<style type="text/css">
 			.main-body {
@@ -31,20 +32,20 @@
 			<table id="actions">
 				<tr>
 					<td>
-						<input type="input" name="search" placeholder="Search...">
-						<button onclick="">Search</button>
-						<button onclick="">Filters</button>
-					</td>
-					<td>
-						<button onclick="">Edit Inventory</button>
-					</td>
-				</tr>
-				<tr>
-					<td>
 						<button onclick="">Sign Selected Gear Out</button>
 					</td>
 					<td>
 						<button onclick="">Sign Gear In</button>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="input" name="search" placeholder="Search...">
+						<button onclick="">Search</button>
+						<button onclick="toggle_filters();">Filters</button>
+					</td>
+					<td>
+						<button onclick="">Edit Inventory</button>
 					</td>
 				</tr>
 			</table>
@@ -56,6 +57,12 @@
 							<th>Select</th>
 							{% for column in columns %}
 							<th>{{ column }}</th>
+							{% endfor %}
+						</tr>
+						<tr id="filters">
+							<td>Filters:</td>
+							{% for column in columns %}
+							<td>{{ column }}</td>
 							{% endfor %}
 						</tr>
 						{% for item in items %}
@@ -76,5 +83,10 @@
 				</form>
 			</div>
 		</div>
+
+		<script type="text/javascript">
+			// Setup
+			$('#filters').hide();
+		</script>
 	</body>
 </html>
