@@ -1,1 +1,1 @@
-*.sass linguist-documentation
+*.sass linguist-generated # Actually the inverse, but this is how I like it
