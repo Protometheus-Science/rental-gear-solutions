@@ -22,7 +22,9 @@ I understand the wireframe shouldn't work, but I want to try something new. Desi
 OK. So I can import the data into the page, sort/filter via JS (not yet, but I've done it before). The problem is defining "unique" traits. i.e. should two of the same bikes be considered different items or the same? I think different, and sorted with javascript, and clicking each category brings up a checkbox pop-up that can filter by options
 
 # General TODO
+- [ ] inventory sorting
 - [ ] implement actual authentication
 - [ ] inventory editing
 - [ ] check out/in system
+- [ ] configuration
 - [ ] export data to barcode
