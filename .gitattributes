@@ -1,1 +1,2 @@
-*.sass linguist-generated # Actually the inverse, but this is how I like it
+# Actually the inverse, but this is how I like it
+*.sass linguist-generated
