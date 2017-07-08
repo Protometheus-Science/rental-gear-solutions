@@ -61,18 +61,18 @@
 						</tr>
 						<tr id="filters">
 							<td>
-								<button onclick="update_filters();">Update</button>
+								<button type="button" onclick="update_filters();">Update</button>
 							</td>
 							{% for column, options in columns.iteritems() %}
 							<th>
 								{% for option in options %}
-								{{option}}: <input type="checkbox" value="{{column}}-{{option}}"><br>
+								{{option}}: <input type="checkbox" class="filter-parameter" value="{{column}}-{{option}}"><br>
 								{% endfor %}
 							</th>
 							{% endfor %}
 						</tr>
 						{% for item in items %}
-						<tr>
+						<tr id="main-data">
 							<td>
 								<select>
 									{% for n in range(0, item.count + 1) %}
@@ -81,7 +81,7 @@
 								</select> / {{item.count}}
 							</td>
 							{% for column, _ in columns.iteritems() %}
-							<td id="{{column}}-{{item[column]}}">{{item[column]}}</td>
+							<td class="inventory-item" id="{{column}}-{{item[column]}}">{{item[column]}}</td>
 							{% endfor %}
 						</tr>
 						{% endfor %}
@@ -92,7 +92,7 @@
 
 		<script type="text/javascript">
 			// Setup
-			$('#filters').hide();
+			// $('#filters').hide();
 		</script>
 	</body>
 </html>
