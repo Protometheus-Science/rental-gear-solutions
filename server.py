@@ -38,7 +38,6 @@ def main_page():
 	if True:
 		r = read_data
 		csv = r.csv('./data/stock_1.csv')
-		print r.parse(csv)
 		return render_template('main.html',
 			columns=r.columns(csv),
 			items=r.parse(csv))
