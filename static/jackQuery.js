@@ -7,7 +7,7 @@ function Tag(x) {
 		this.$ = document.getElementsByClassName(x.slice(1))[0];
 	}
 
-	this.style = function(a, v) { this.$.style[a] = v; }
+	this.style = function(a, v) { return (v != undefined)? this.$.style[a] = v : this.$.style[a]; }
 	this.append = function(c) { this.$.innerHTML += c; }
 	this.show = function(s) { this.$.style.display = "block"; }
 	this.hide = function(s) { this.$.style.display = "none"; }
