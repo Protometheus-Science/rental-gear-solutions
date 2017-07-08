@@ -20,3 +20,9 @@ I understand the wireframe shouldn't work, but I want to try something new. Desi
 ~~I just realized how hard this is going to be to get working. For example, exporting a sample item to jinja is hard. Multiple stores is really the kicker.~~
 
 OK. So I can import the data into the page, sort/filter via JS (not yet, but I've done it before). The problem is defining "unique" traits. i.e. should two of the same bikes be considered different items or the same? I think different, and sorted with javascript, and clicking each category brings up a checkbox pop-up that can filter by options
+
+# General TODO
+- [ ] implement actual authentication
+- [ ] inventory editing
+- [ ] check out/in system
+- [ ] export data to barcode
