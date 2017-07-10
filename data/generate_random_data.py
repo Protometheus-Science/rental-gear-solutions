@@ -1,7 +1,15 @@
 from random import randint
 
-stores = ["aspen", "basalt", "carbondale"]
-models = ["giant", "specialized", "santa cruz"]
-sizes  = ["s", "m", "l"]
+store = ["aspen", "basalt", "carbondale"]
+brand = ["giant", "specialized", "santa cruz"]
+style = ["hybrid", "mountain", "road"]
+size  = ["s", "m", "l"]
 
-print "\n".join(map(lambda x: ",".join(x), [["bike", stores[randint(0,2)], models[randint(0,2)], sizes[randint(0,2)]] for i in range(100)]))
+pick = lambda l: l[randint(0, len(l)-1)]
+
+def new_bike():
+	bike = ["bike", pick(store), pick(brand), pick(style)]
+	bike += [bike[3] + "-" + str(randint(1, 2)), pick(size)]
+	return bike
+
+print "\n".join(map(lambda x: ",".join(x), [new_bike() for i in range(100)]))
