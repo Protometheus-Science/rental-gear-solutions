@@ -30,3 +30,7 @@ function update_filters() {
 		}
 	}
 }
+
+function fuzzy_search(column) {
+	console.log("searching " + column)
+}
