@@ -10,8 +10,8 @@ A landing page/marketing will need to be done at some point, but now is not the 
 # Wireframe notes:
 
 - [x] Switch "Select" from checkbox to some sort of count so you can check out multiple of one item
-- [ ] Get all buttons working
-- [ ] Design a "modal" system of some sort
+- [ ]~ Get all buttons working
+- [ ]? Design a "modal" system of some sort
 - [x] Eventually connect the wireframe to the backend
 
 I understand the wireframe shouldn't work, but I want to try something new. Design the backend first, then redecorate the front end.
@@ -22,7 +22,7 @@ I understand the wireframe shouldn't work, but I want to try something new. Desi
 OK. So I can import the data into the page, sort/filter via JS (not yet, but I've done it before). The problem is defining "unique" traits. i.e. should two of the same bikes be considered different items or the same? I think different, and sorted with javascript, and clicking each category brings up a checkbox pop-up that can filter by options
 
 # General TODO
-- [ ] inventory sorting
+- [x] inventory sorting
 - [ ] implement actual authentication
 - [ ] inventory editing
 - [ ] check out/in system
