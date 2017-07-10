@@ -67,7 +67,7 @@
 							{% for column, options in columns.iteritems() %}
 							<th>
 								{% for option in options %}
-								{{option}}: <input type="checkbox" class="filter-parameter" value="{{column}}-{{option}}"><br>
+								{{option}}: <input type="checkbox" class="filter-parameter" value="{{column}}-{{option}}" onclick="update_filters()"><br>
 								{% endfor %}
 							</th>
 							{% endfor %}
@@ -93,11 +93,7 @@
 
 		<script type="text/javascript">
 			// Setup
-			// $('#filters').hide();
-			let filters = [...document.getElementsByClassName("filter-parameter")];
-			for (var i = filters.length - 1; i >= 0; i--) {
-				filters[i].addEventListener("click", update_filters)
-			}
+
 		</script>
 	</body>
 </html>
