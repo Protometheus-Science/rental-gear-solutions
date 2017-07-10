@@ -21,7 +21,7 @@ I understand the wireframe shouldn't work, but I want to try something new. Desi
 
 07/08: ~~OK. So I can import the data into the page, sort/filter via JS (not yet, but I've done it before). The problem is defining "unique" traits. i.e. should two of the same bikes be considered different items or the same? I think different, and sorted with javascript, and clicking each category brings up a checkbox pop-up that can filter by options~~
 
-07/09: Great so I got sorting working all crispy and neat. Unfortunately, I just remembered how complicated names are. I'll have to add some limiter to say "if more than n options, just make it text based" which will also nix the search bar, which is cool
+07/09: Great so I got sorting working all crispy and neat. ~~Unfortunately, I just remembered how complicated names are. I'll have to add some limiter to say "if more than n options, just make it text based" which will also nix the search bar, which is cool~~ Update: No I just need implement fuzzy search
 
 # General TODO
 - [x] inventory sorting
