@@ -1,3 +1,10 @@
+def unique(list):
+	temp = []
+	for item in list:
+		if item not in temp:
+			temp.append(item)
+	return temp
+
 # Read a csv file into a 2d array
 def csv(path):
 	return [line.strip().split(",") for line in open(path)]
@@ -9,5 +16,5 @@ def columns(csv):
 
 # Return data in jinja-usable format
 def parse(csv):
-	data = map(dict, [[("count", csv.count(item))] + zip(csv[0], item) for item in csv[1:]])
+	data = map(dict, [[("count", csv.count(item))] + zip(csv[0], item) for item in unique(csv[1:])])
 	return data
