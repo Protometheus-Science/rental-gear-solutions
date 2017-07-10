@@ -1,101 +1,701 @@
-category,store,model,style,size
-bike,basalt,giant,hybrid,s
-bike,carbondale,santa cruz,mountain,s
-bike,aspen,giant,hybrid,l
-bike,basalt,specialized,road,l
-bike,aspen,giant,hybrid,l
-bike,aspen,giant,hybrid,s
-bike,aspen,specialized,road,s
-bike,basalt,giant,hybrid,l
-bike,aspen,specialized,road,l
-bike,basalt,specialized,road,m
-bike,aspen,specialized,road,l
-bike,aspen,specialized,road,l
-bike,basalt,specialized,road,s
-bike,basalt,specialized,road,m
-bike,aspen,giant,hybrid,m
-bike,carbondale,giant,hybrid,l
-bike,basalt,specialized,road,l
-bike,basalt,giant,hybrid,s
-bike,basalt,santa cruz,mountain,l
-bike,basalt,specialized,road,s
-bike,aspen,santa cruz,mountain,s
-bike,aspen,santa cruz,mountain,s
-bike,basalt,santa cruz,mountain,s
-bike,aspen,santa cruz,mountain,m
-bike,basalt,giant,hybrid,l
-bike,carbondale,specialized,road,l
-bike,basalt,santa cruz,mountain,l
-bike,aspen,giant,hybrid,m
-bike,aspen,santa cruz,mountain,s
-bike,carbondale,santa cruz,mountain,l
-bike,basalt,specialized,road,s
-bike,carbondale,giant,hybrid,m
-bike,basalt,giant,hybrid,l
-bike,aspen,santa cruz,mountain,l
-bike,aspen,specialized,road,s
-bike,carbondale,giant,hybrid,m
-bike,basalt,giant,hybrid,m
-bike,basalt,specialized,road,s
-bike,aspen,specialized,road,m
-bike,basalt,santa cruz,mountain,l
-bike,basalt,giant,hybrid,s
-bike,aspen,specialized,road,l
-bike,carbondale,specialized,road,m
-bike,aspen,santa cruz,mountain,l
-bike,basalt,santa cruz,mountain,l
-bike,carbondale,specialized,road,l
-bike,carbondale,giant,hybrid,l
-bike,carbondale,giant,hybrid,s
-bike,aspen,giant,hybrid,l
-bike,aspen,specialized,road,l
-bike,basalt,specialized,road,s
-bike,aspen,giant,hybrid,s
-bike,basalt,giant,hybrid,l
-bike,basalt,giant,hybrid,l
-bike,basalt,specialized,road,s
-bike,basalt,specialized,road,l
-bike,carbondale,giant,hybrid,s
-bike,basalt,santa cruz,mountain,m
-bike,basalt,santa cruz,mountain,m
-bike,aspen,specialized,road,l
-bike,aspen,giant,hybrid,s
-bike,carbondale,specialized,road,l
-bike,aspen,specialized,road,m
-bike,basalt,giant,hybrid,l
-bike,basalt,specialized,road,m
-bike,carbondale,specialized,road,s
-bike,aspen,santa cruz,mountain,m
-bike,basalt,specialized,road,l
-bike,aspen,santa cruz,mountain,s
-bike,carbondale,santa cruz,mountain,s
-bike,basalt,santa cruz,mountain,m
-bike,carbondale,santa cruz,mountain,s
-bike,carbondale,giant,hybrid,m
-bike,basalt,giant,hybrid,s
-bike,basalt,santa cruz,mountain,m
-bike,basalt,specialized,road,l
-bike,aspen,giant,hybrid,m
-bike,aspen,giant,hybrid,s
-bike,aspen,giant,hybrid,m
-bike,aspen,specialized,road,s
-bike,basalt,giant,hybrid,l
-bike,aspen,giant,hybrid,l
-bike,carbondale,specialized,road,s
-bike,aspen,specialized,road,m
-bike,aspen,santa cruz,mountain,l
-bike,carbondale,santa cruz,mountain,l
-bike,carbondale,santa cruz,mountain,s
-bike,aspen,specialized,road,l
-bike,basalt,specialized,road,l
-bike,aspen,giant,hybrid,s
-bike,carbondale,specialized,road,m
-bike,basalt,specialized,road,s
-bike,carbondale,specialized,road,m
-bike,basalt,specialized,road,l
-bike,aspen,giant,hybrid,s
-bike,aspen,specialized,road,l
-bike,aspen,giant,hybrid,m
-bike,carbondale,santa cruz,mountain,l
-bike,basalt,santa cruz,mountain,s
-bike,aspen,specialized,road,m
+category,store,brand,style,model,size
+bike,aspen,giant,mountain,giant-mountain-2,m
+bike,carbondale,specialized,mountain,specialized-mountain-2,m
+bike,carbondale,specialized,mountain,specialized-mountain-2,m
+bike,basalt,specialized,hybrid,specialized-hybrid-2,m
+bike,basalt,specialized,road,specialized-road-1,s
+bike,aspen,santa cruz,mountain,santa cruz-mountain-2,s
+bike,basalt,specialized,road,specialized-road-1,l
+bike,carbondale,specialized,hybrid,specialized-hybrid-1,m
+bike,carbondale,santa cruz,mountain,santa cruz-mountain-2,m
+bike,aspen,giant,hybrid,giant-hybrid-1,s
+bike,basalt,giant,mountain,giant-mountain-1,l
+bike,carbondale,giant,hybrid,giant-hybrid-2,s
+bike,basalt,giant,road,giant-road-2,s
+bike,carbondale,giant,mountain,giant-mountain-1,s
+bike,carbondale,specialized,hybrid,specialized-hybrid-1,m
+bike,carbondale,santa cruz,road,santa cruz-road-1,s
+bike,aspen,santa cruz,hybrid,santa cruz-hybrid-2,m
+bike,carbondale,santa cruz,hybrid,santa cruz-hybrid-2,s
+bike,aspen,giant,road,giant-road-1,s
+bike,basalt,specialized,road,specialized-road-1,m
+bike,aspen,santa cruz,mountain,santa cruz-mountain-2,m
+bike,aspen,giant,hybrid,giant-hybrid-2,s
+bike,basalt,santa cruz,road,santa cruz-road-1,s
+bike,aspen,specialized,mountain,specialized-mountain-1,s
+bike,carbondale,santa cruz,mountain,santa cruz-mountain-2,m
+bike,basalt,specialized,hybrid,specialized-hybrid-2,s
+bike,basalt,giant,mountain,giant-mountain-2,m
+bike,carbondale,giant,mountain,giant-mountain-2,s
+bike,carbondale,santa cruz,mountain,santa cruz-mountain-2,m
+bike,carbondale,specialized,hybrid,specialized-hybrid-2,s
+bike,carbondale,santa cruz,road,santa cruz-road-2,l
+bike,carbondale,santa cruz,mountain,santa cruz-mountain-2,s
+bike,basalt,santa cruz,hybrid,santa cruz-hybrid-2,s
+bike,aspen,specialized,hybrid,specialized-hybrid-2,l
+bike,basalt,santa cruz,hybrid,santa cruz-hybrid-2,l
+bike,carbondale,giant,hybrid,giant-hybrid-2,s
+bike,aspen,santa cruz,hybrid,santa cruz-hybrid-1,m
+bike,carbondale,giant,road,giant-road-1,l
+bike,carbondale,santa cruz,road,santa cruz-road-2,m
+bike,carbondale,giant,hybrid,giant-hybrid-2,s
+bike,basalt,specialized,mountain,specialized-mountain-1,m
+bike,basalt,giant,road,giant-road-1,l
+bike,carbondale,giant,hybrid,giant-hybrid-2,s
+bike,aspen,giant,road,giant-road-2,s
+bike,aspen,santa cruz,mountain,santa cruz-mountain-1,m
+bike,carbondale,santa cruz,hybrid,santa cruz-hybrid-1,m
+bike,aspen,giant,hybrid,giant-hybrid-1,m
+bike,aspen,giant,mountain,giant-mountain-2,l
+bike,carbondale,giant,road,giant-road-1,s
+bike,carbondale,specialized,mountain,specialized-mountain-2,s
+bike,aspen,giant,road,giant-road-1,s
+bike,basalt,santa cruz,mountain,santa cruz-mountain-2,l
+bike,carbondale,specialized,road,specialized-road-1,m
+bike,basalt,santa cruz,mountain,santa cruz-mountain-1,s
+bike,basalt,specialized,mountain,specialized-mountain-2,s
+bike,aspen,giant,hybrid,giant-hybrid-1,l
+bike,basalt,giant,mountain,giant-mountain-2,m
+bike,basalt,giant,mountain,giant-mountain-2,l
+bike,carbondale,giant,mountain,giant-mountain-1,s
+bike,carbondale,specialized,mountain,specialized-mountain-2,m
+bike,aspen,specialized,road,specialized-road-2,l
+bike,carbondale,specialized,mountain,specialized-mountain-2,m
+bike,aspen,santa cruz,mountain,santa cruz-mountain-2,s
+bike,carbondale,santa cruz,hybrid,santa cruz-hybrid-1,l
+bike,basalt,giant,mountain,giant-mountain-1,m
+bike,aspen,specialized,road,specialized-road-1,m
+bike,aspen,santa cruz,hybrid,santa cruz-hybrid-2,m
+bike,basalt,specialized,mountain,specialized-mountain-1,m
+bike,aspen,giant,hybrid,giant-hybrid-2,l
+bike,carbondale,santa cruz,road,santa cruz-road-1,l
+bike,aspen,specialized,mountain,specialized-mountain-1,m
+bike,basalt,specialized,hybrid,specialized-hybrid-1,m
+bike,basalt,santa cruz,hybrid,santa cruz-hybrid-1,m
+bike,aspen,santa cruz,hybrid,santa cruz-hybrid-1,m
+bike,basalt,specialized,road,specialized-road-1,m
+bike,carbondale,santa cruz,hybrid,santa cruz-hybrid-2,l
+bike,aspen,specialized,mountain,specialized-mountain-2,m
+bike,aspen,santa cruz,hybrid,santa cruz-hybrid-2,s
+bike,carbondale,specialized,mountain,specialized-mountain-1,m
+bike,basalt,specialized,mountain,specialized-mountain-2,l
+bike,aspen,specialized,mountain,specialized-mountain-1,m
+bike,carbondale,specialized,hybrid,specialized-hybrid-2,s
+bike,basalt,specialized,hybrid,specialized-hybrid-2,m
+bike,aspen,giant,mountain,giant-mountain-1,m
+bike,basalt,specialized,road,specialized-road-1,s
+bike,basalt,santa cruz,road,santa cruz-road-1,m
+bike,aspen,specialized,mountain,specialized-mountain-2,m
+bike,carbondale,santa cruz,road,santa cruz-road-1,l
+bike,carbondale,santa cruz,hybrid,santa cruz-hybrid-2,l
+bike,basalt,santa cruz,mountain,santa cruz-mountain-2,m
+bike,basalt,giant,hybrid,giant-hybrid-2,m
+bike,aspen,santa cruz,road,santa cruz-road-1,s
+bike,carbondale,santa cruz,mountain,santa cruz-mountain-1,l
+bike,carbondale,giant,mountain,giant-mountain-1,l
+bike,basalt,specialized,mountain,specialized-mountain-1,s
+bike,basalt,giant,mountain,giant-mountain-1,s
+bike,aspen,giant,hybrid,giant-hybrid-2,m
+bike,aspen,specialized,road,specialized-road-2,l
+bike,aspen,specialized,hybrid,specialized-hybrid-1,m
+bike,carbondale,specialized,road,specialized-road-1,l
+bike,basalt,giant,road,giant-road-1,s
+bike,aspen,specialized,hybrid,specialized-hybrid-2,l
+bike,basalt,santa cruz,hybrid,santa cruz-hybrid-2,m
+bike,basalt,giant,road,giant-road-2,s
+bike,aspen,giant,mountain,giant-mountain-1,m
+bike,aspen,specialized,hybrid,specialized-hybrid-1,m
+bike,basalt,specialized,hybrid,specialized-hybrid-1,m
+bike,carbondale,giant,mountain,giant-mountain-2,s
+bike,carbondale,giant,road,giant-road-1,l
+bike,aspen,santa cruz,hybrid,santa cruz-hybrid-1,m
+bike,carbondale,santa cruz,road,santa cruz-road-2,l
+bike,carbondale,specialized,mountain,specialized-mountain-1,s
+bike,basalt,santa cruz,road,santa cruz-road-1,l
+bike,carbondale,giant,mountain,giant-mountain-2,m
+bike,basalt,specialized,mountain,specialized-mountain-1,l
+bike,basalt,specialized,mountain,specialized-mountain-1,m
+bike,aspen,santa cruz,hybrid,santa cruz-hybrid-1,l
+bike,basalt,giant,hybrid,giant-hybrid-1,s
+bike,aspen,specialized,road,specialized-road-1,l
+bike,carbondale,santa cruz,hybrid,santa cruz-hybrid-1,l
+bike,basalt,giant,road,giant-road-1,m
+bike,carbondale,giant,road,giant-road-1,l
+bike,basalt,giant,mountain,giant-mountain-1,l
+bike,basalt,giant,road,giant-road-2,s
+bike,carbondale,specialized,road,specialized-road-2,s
+bike,aspen,giant,mountain,giant-mountain-2,l
+bike,basalt,santa cruz,mountain,santa cruz-mountain-1,s
+bike,aspen,giant,road,giant-road-2,s
+bike,basalt,santa cruz,hybrid,santa cruz-hybrid-1,m
+bike,basalt,specialized,hybrid,specialized-hybrid-2,s
+bike,carbondale,giant,mountain,giant-mountain-1,m
+bike,carbondale,specialized,road,specialized-road-1,l
+bike,basalt,giant,mountain,giant-mountain-2,l
+bike,aspen,santa cruz,hybrid,santa cruz-hybrid-1,m
+bike,aspen,specialized,hybrid,specialized-hybrid-1,s
+bike,aspen,santa cruz,hybrid,santa cruz-hybrid-2,s
+bike,basalt,giant,hybrid,giant-hybrid-2,s
+bike,aspen,giant,road,giant-road-1,s
+bike,basalt,santa cruz,mountain,santa cruz-mountain-2,s
+bike,aspen,giant,mountain,giant-mountain-2,l
+bike,carbondale,specialized,hybrid,specialized-hybrid-1,l
+bike,basalt,santa cruz,hybrid,santa cruz-hybrid-1,l
+bike,basalt,giant,mountain,giant-mountain-2,l
+bike,aspen,giant,road,giant-road-2,m
+bike,aspen,giant,mountain,giant-mountain-2,s
+bike,aspen,santa cruz,road,santa cruz-road-1,l
+bike,aspen,giant,hybrid,giant-hybrid-2,m
+bike,basalt,santa cruz,mountain,santa cruz-mountain-2,l
+bike,aspen,giant,hybrid,giant-hybrid-2,s
+bike,aspen,santa cruz,road,santa cruz-road-2,m
+bike,aspen,giant,mountain,giant-mountain-2,s
+bike,basalt,santa cruz,mountain,santa cruz-mountain-1,m
+bike,basalt,giant,road,giant-road-2,l
+bike,aspen,giant,road,giant-road-1,l
+bike,aspen,specialized,hybrid,specialized-hybrid-1,l
+bike,basalt,giant,road,giant-road-2,l
+bike,carbondale,santa cruz,mountain,santa cruz-mountain-2,s
+bike,carbondale,specialized,hybrid,specialized-hybrid-2,s
+bike,carbondale,giant,hybrid,giant-hybrid-2,s
+bike,basalt,santa cruz,hybrid,santa cruz-hybrid-2,l
+bike,basalt,santa cruz,road,santa cruz-road-1,m
+bike,carbondale,specialized,road,specialized-road-2,s
+bike,basalt,specialized,hybrid,specialized-hybrid-1,s
+bike,carbondale,santa cruz,road,santa cruz-road-2,l
+bike,basalt,specialized,hybrid,specialized-hybrid-2,m
+bike,aspen,specialized,mountain,specialized-mountain-1,s
+bike,basalt,giant,hybrid,giant-hybrid-2,s
+bike,carbondale,specialized,road,specialized-road-2,l
+bike,aspen,santa cruz,road,santa cruz-road-2,l
+bike,basalt,giant,road,giant-road-1,l
+bike,aspen,santa cruz,road,santa cruz-road-1,l
+bike,basalt,specialized,road,specialized-road-2,m
+bike,aspen,giant,hybrid,giant-hybrid-1,m
+bike,aspen,specialized,hybrid,specialized-hybrid-1,s
+bike,carbondale,santa cruz,hybrid,santa cruz-hybrid-2,s
+bike,aspen,giant,road,giant-road-2,l
+bike,aspen,santa cruz,hybrid,santa cruz-hybrid-1,l
+bike,basalt,santa cruz,mountain,santa cruz-mountain-2,s
+bike,basalt,specialized,mountain,specialized-mountain-1,s
+bike,aspen,santa cruz,road,santa cruz-road-1,s
+bike,basalt,specialized,hybrid,specialized-hybrid-1,l
+bike,basalt,giant,road,giant-road-2,s
+bike,carbondale,santa cruz,mountain,santa cruz-mountain-1,s
+bike,carbondale,specialized,hybrid,specialized-hybrid-2,s
+bike,aspen,giant,mountain,giant-mountain-2,s
+bike,carbondale,giant,hybrid,giant-hybrid-1,l
+bike,basalt,specialized,mountain,specialized-mountain-2,m
+bike,carbondale,giant,road,giant-road-2,s
+bike,basalt,specialized,road,specialized-road-1,s
+bike,carbondale,specialized,road,specialized-road-2,s
+bike,aspen,giant,hybrid,giant-hybrid-2,l
+bike,basalt,giant,hybrid,giant-hybrid-1,s
+bike,aspen,specialized,hybrid,specialized-hybrid-2,l
+bike,basalt,specialized,hybrid,specialized-hybrid-2,s
+bike,carbondale,specialized,mountain,specialized-mountain-1,l
+bike,basalt,santa cruz,road,santa cruz-road-1,m
+bike,basalt,giant,road,giant-road-2,m
+bike,carbondale,specialized,hybrid,specialized-hybrid-1,m
+bike,basalt,santa cruz,hybrid,santa cruz-hybrid-1,l
+bike,basalt,santa cruz,hybrid,santa cruz-hybrid-2,s
+bike,carbondale,specialized,mountain,specialized-mountain-1,s
+bike,carbondale,giant,mountain,giant-mountain-2,l
+bike,basalt,giant,mountain,giant-mountain-2,l
+bike,aspen,santa cruz,hybrid,santa cruz-hybrid-2,s
+bike,basalt,specialized,mountain,specialized-mountain-1,m
+bike,basalt,giant,mountain,giant-mountain-2,m
+bike,aspen,giant,road,giant-road-1,l
+bike,carbondale,specialized,mountain,specialized-mountain-1,m
+bike,aspen,giant,hybrid,giant-hybrid-1,l
+bike,basalt,specialized,road,specialized-road-2,l
+bike,carbondale,specialized,hybrid,specialized-hybrid-1,m
+bike,aspen,giant,mountain,giant-mountain-1,s
+bike,carbondale,giant,mountain,giant-mountain-1,s
+bike,basalt,giant,hybrid,giant-hybrid-2,m
+bike,basalt,santa cruz,mountain,santa cruz-mountain-1,s
+bike,aspen,specialized,hybrid,specialized-hybrid-1,s
+bike,aspen,specialized,road,specialized-road-1,s
+bike,basalt,santa cruz,road,santa cruz-road-1,m
+bike,aspen,giant,road,giant-road-1,m
+bike,aspen,specialized,hybrid,specialized-hybrid-2,s
+bike,carbondale,giant,hybrid,giant-hybrid-2,l
+bike,aspen,santa cruz,hybrid,santa cruz-hybrid-2,l
+bike,aspen,specialized,hybrid,specialized-hybrid-1,l
+bike,aspen,giant,hybrid,giant-hybrid-2,s
+bike,aspen,santa cruz,mountain,santa cruz-mountain-1,m
+bike,carbondale,giant,mountain,giant-mountain-2,l
+bike,aspen,santa cruz,road,santa cruz-road-2,m
+bike,aspen,santa cruz,road,santa cruz-road-2,l
+bike,basalt,giant,mountain,giant-mountain-2,m
+bike,aspen,santa cruz,hybrid,santa cruz-hybrid-2,s
+bike,aspen,giant,mountain,giant-mountain-2,l
+bike,basalt,santa cruz,hybrid,santa cruz-hybrid-1,s
+bike,aspen,giant,mountain,giant-mountain-2,s
+bike,basalt,giant,hybrid,giant-hybrid-1,s
+bike,aspen,giant,road,giant-road-1,l
+bike,carbondale,santa cruz,hybrid,santa cruz-hybrid-2,s
+bike,carbondale,giant,road,giant-road-1,s
+bike,carbondale,santa cruz,hybrid,santa cruz-hybrid-2,m
+bike,carbondale,giant,mountain,giant-mountain-1,m
+bike,carbondale,giant,road,giant-road-2,m
+bike,aspen,giant,hybrid,giant-hybrid-1,s
+bike,aspen,giant,road,giant-road-2,l
+bike,basalt,specialized,hybrid,specialized-hybrid-1,s
+bike,basalt,specialized,hybrid,specialized-hybrid-2,s
+bike,aspen,giant,mountain,giant-mountain-1,s
+bike,carbondale,giant,hybrid,giant-hybrid-2,l
+bike,basalt,santa cruz,mountain,santa cruz-mountain-1,s
+bike,aspen,santa cruz,road,santa cruz-road-1,s
+bike,carbondale,specialized,road,specialized-road-1,m
+bike,aspen,giant,mountain,giant-mountain-2,m
+bike,aspen,santa cruz,hybrid,santa cruz-hybrid-2,l
+bike,aspen,santa cruz,mountain,santa cruz-mountain-1,m
+bike,aspen,specialized,hybrid,specialized-hybrid-1,s
+bike,carbondale,giant,hybrid,giant-hybrid-1,l
+bike,aspen,santa cruz,road,santa cruz-road-2,m
+bike,aspen,santa cruz,road,santa cruz-road-2,s
+bike,carbondale,specialized,hybrid,specialized-hybrid-1,m
+bike,aspen,specialized,hybrid,specialized-hybrid-1,l
+bike,basalt,giant,mountain,giant-mountain-1,s
+bike,basalt,specialized,hybrid,specialized-hybrid-1,m
+bike,basalt,specialized,hybrid,specialized-hybrid-1,s
+bike,basalt,giant,road,giant-road-2,s
+bike,carbondale,giant,mountain,giant-mountain-1,l
+bike,aspen,santa cruz,hybrid,santa cruz-hybrid-2,m
+bike,carbondale,santa cruz,hybrid,santa cruz-hybrid-1,m
+bike,aspen,specialized,hybrid,specialized-hybrid-2,m
+bike,basalt,giant,road,giant-road-1,m
+bike,aspen,specialized,road,specialized-road-2,m
+bike,carbondale,specialized,hybrid,specialized-hybrid-2,s
+bike,basalt,specialized,road,specialized-road-1,m
+bike,basalt,santa cruz,mountain,santa cruz-mountain-2,m
+bike,aspen,specialized,hybrid,specialized-hybrid-1,l
+bike,carbondale,giant,hybrid,giant-hybrid-1,l
+bike,carbondale,giant,mountain,giant-mountain-2,m
+bike,basalt,giant,road,giant-road-1,m
+bike,aspen,specialized,hybrid,specialized-hybrid-2,s
+bike,basalt,santa cruz,road,santa cruz-road-2,m
+bike,aspen,santa cruz,road,santa cruz-road-1,s
+bike,aspen,specialized,hybrid,specialized-hybrid-1,m
+bike,carbondale,santa cruz,mountain,santa cruz-mountain-2,l
+bike,basalt,specialized,mountain,specialized-mountain-2,s
+bike,aspen,santa cruz,hybrid,santa cruz-hybrid-2,m
+bike,carbondale,specialized,mountain,specialized-mountain-2,s
+bike,aspen,giant,mountain,giant-mountain-2,s
+bike,aspen,santa cruz,hybrid,santa cruz-hybrid-1,m
+bike,carbondale,giant,road,giant-road-2,s
+bike,basalt,specialized,road,specialized-road-2,s
+bike,carbondale,specialized,mountain,specialized-mountain-2,l
+bike,carbondale,specialized,mountain,specialized-mountain-1,m
+bike,carbondale,specialized,road,specialized-road-1,s
+bike,basalt,giant,mountain,giant-mountain-1,s
+bike,aspen,santa cruz,mountain,santa cruz-mountain-1,m
+bike,basalt,giant,mountain,giant-mountain-1,l
+bike,carbondale,santa cruz,hybrid,santa cruz-hybrid-1,l
+bike,carbondale,specialized,road,specialized-road-2,s
+bike,aspen,santa cruz,road,santa cruz-road-2,l
+bike,aspen,giant,hybrid,giant-hybrid-1,s
+bike,aspen,santa cruz,mountain,santa cruz-mountain-1,l
+bike,basalt,giant,mountain,giant-mountain-2,m
+bike,basalt,giant,road,giant-road-1,l
+bike,aspen,santa cruz,mountain,santa cruz-mountain-2,s
+bike,basalt,specialized,road,specialized-road-1,l
+bike,basalt,santa cruz,road,santa cruz-road-2,s
+bike,basalt,santa cruz,hybrid,santa cruz-hybrid-2,s
+bike,basalt,giant,hybrid,giant-hybrid-2,s
+bike,basalt,specialized,hybrid,specialized-hybrid-1,s
+bike,basalt,specialized,hybrid,specialized-hybrid-1,s
+bike,aspen,santa cruz,road,santa cruz-road-2,m
+bike,aspen,santa cruz,hybrid,santa cruz-hybrid-2,m
+bike,basalt,santa cruz,road,santa cruz-road-1,l
+bike,carbondale,santa cruz,mountain,santa cruz-mountain-1,l
+bike,aspen,santa cruz,hybrid,santa cruz-hybrid-1,m
+bike,aspen,giant,mountain,giant-mountain-2,m
+bike,carbondale,specialized,road,specialized-road-2,l
+bike,basalt,santa cruz,road,santa cruz-road-2,m
+bike,carbondale,santa cruz,road,santa cruz-road-1,m
+bike,aspen,specialized,road,specialized-road-2,s
+bike,basalt,giant,hybrid,giant-hybrid-1,s
+bike,carbondale,giant,road,giant-road-1,l
+bike,aspen,giant,mountain,giant-mountain-2,s
+bike,aspen,giant,hybrid,giant-hybrid-1,l
+bike,basalt,giant,mountain,giant-mountain-1,l
+bike,aspen,specialized,mountain,specialized-mountain-1,s
+bike,basalt,specialized,hybrid,specialized-hybrid-1,m
+bike,aspen,santa cruz,road,santa cruz-road-2,l
+bike,basalt,santa cruz,mountain,santa cruz-mountain-1,m
+bike,aspen,santa cruz,mountain,santa cruz-mountain-1,m
+bike,basalt,specialized,road,specialized-road-1,l
+bike,basalt,giant,hybrid,giant-hybrid-1,s
+bike,aspen,giant,road,giant-road-1,l
+bike,aspen,santa cruz,mountain,santa cruz-mountain-1,s
+bike,carbondale,giant,mountain,giant-mountain-1,l
+bike,basalt,santa cruz,hybrid,santa cruz-hybrid-1,m
+bike,carbondale,specialized,road,specialized-road-2,m
+bike,aspen,giant,mountain,giant-mountain-2,s
+bike,basalt,santa cruz,hybrid,santa cruz-hybrid-2,s
+bike,carbondale,specialized,hybrid,specialized-hybrid-2,l
+bike,aspen,specialized,mountain,specialized-mountain-2,m
+bike,carbondale,giant,mountain,giant-mountain-2,s
+bike,carbondale,giant,mountain,giant-mountain-2,m
+bike,carbondale,santa cruz,mountain,santa cruz-mountain-2,s
+bike,aspen,santa cruz,mountain,santa cruz-mountain-1,m
+bike,carbondale,santa cruz,road,santa cruz-road-1,l
+bike,carbondale,giant,hybrid,giant-hybrid-1,l
+bike,carbondale,santa cruz,hybrid,santa cruz-hybrid-2,l
+bike,carbondale,specialized,road,specialized-road-2,m
+bike,basalt,santa cruz,mountain,santa cruz-mountain-2,m
+bike,basalt,specialized,mountain,specialized-mountain-2,m
+bike,carbondale,specialized,hybrid,specialized-hybrid-1,s
+bike,aspen,giant,mountain,giant-mountain-1,m
+bike,carbondale,specialized,road,specialized-road-2,l
+bike,basalt,giant,road,giant-road-2,s
+bike,basalt,giant,road,giant-road-1,s
+bike,aspen,specialized,road,specialized-road-1,s
+bike,aspen,santa cruz,hybrid,santa cruz-hybrid-2,m
+bike,aspen,giant,road,giant-road-2,m
+bike,aspen,giant,hybrid,giant-hybrid-2,m
+bike,basalt,specialized,mountain,specialized-mountain-1,s
+bike,aspen,santa cruz,road,santa cruz-road-1,s
+bike,carbondale,specialized,road,specialized-road-2,s
+bike,basalt,santa cruz,road,santa cruz-road-1,m
+bike,aspen,santa cruz,road,santa cruz-road-1,l
+bike,carbondale,specialized,mountain,specialized-mountain-1,m
+bike,carbondale,santa cruz,road,santa cruz-road-2,m
+bike,aspen,santa cruz,hybrid,santa cruz-hybrid-1,s
+bike,carbondale,specialized,mountain,specialized-mountain-2,s
+bike,aspen,giant,hybrid,giant-hybrid-2,l
+bike,basalt,giant,road,giant-road-1,s
+bike,basalt,giant,mountain,giant-mountain-1,s
+bike,carbondale,specialized,hybrid,specialized-hybrid-2,m
+bike,carbondale,giant,hybrid,giant-hybrid-2,l
+bike,carbondale,giant,road,giant-road-2,l
+bike,carbondale,giant,mountain,giant-mountain-2,l
+bike,aspen,specialized,hybrid,specialized-hybrid-1,s
+bike,aspen,giant,hybrid,giant-hybrid-2,l
+bike,carbondale,santa cruz,hybrid,santa cruz-hybrid-1,m
+bike,carbondale,santa cruz,hybrid,santa cruz-hybrid-2,m
+bike,aspen,giant,road,giant-road-2,m
+bike,basalt,specialized,mountain,specialized-mountain-2,l
+bike,aspen,santa cruz,road,santa cruz-road-1,s
+bike,basalt,specialized,hybrid,specialized-hybrid-1,l
+bike,basalt,giant,mountain,giant-mountain-1,l
+bike,basalt,giant,mountain,giant-mountain-1,m
+bike,aspen,santa cruz,hybrid,santa cruz-hybrid-1,l
+bike,basalt,santa cruz,mountain,santa cruz-mountain-2,m
+bike,carbondale,santa cruz,hybrid,santa cruz-hybrid-1,m
+bike,basalt,specialized,hybrid,specialized-hybrid-2,m
+bike,aspen,specialized,road,specialized-road-2,l
+bike,aspen,santa cruz,mountain,santa cruz-mountain-2,l
+bike,aspen,santa cruz,mountain,santa cruz-mountain-2,s
+bike,aspen,specialized,hybrid,specialized-hybrid-2,m
+bike,aspen,santa cruz,hybrid,santa cruz-hybrid-1,s
+bike,aspen,santa cruz,hybrid,santa cruz-hybrid-1,l
+bike,carbondale,giant,mountain,giant-mountain-1,l
+bike,aspen,specialized,mountain,specialized-mountain-1,m
+bike,basalt,santa cruz,mountain,santa cruz-mountain-1,m
+bike,basalt,specialized,hybrid,specialized-hybrid-2,l
+bike,basalt,specialized,hybrid,specialized-hybrid-2,s
+bike,basalt,giant,mountain,giant-mountain-2,m
+bike,aspen,specialized,road,specialized-road-1,m
+bike,basalt,specialized,road,specialized-road-2,l
+bike,carbondale,specialized,road,specialized-road-1,s
+bike,aspen,giant,road,giant-road-2,l
+bike,aspen,santa cruz,hybrid,santa cruz-hybrid-2,l
+bike,aspen,giant,mountain,giant-mountain-1,m
+bike,aspen,santa cruz,road,santa cruz-road-2,m
+bike,aspen,giant,road,giant-road-2,l
+bike,carbondale,specialized,mountain,specialized-mountain-1,m
+bike,aspen,santa cruz,road,santa cruz-road-2,s
+bike,carbondale,giant,mountain,giant-mountain-1,s
+bike,basalt,giant,mountain,giant-mountain-1,m
+bike,aspen,giant,road,giant-road-2,s
+bike,basalt,specialized,hybrid,specialized-hybrid-2,l
+bike,carbondale,giant,hybrid,giant-hybrid-2,m
+bike,aspen,specialized,road,specialized-road-1,s
+bike,basalt,santa cruz,mountain,santa cruz-mountain-2,m
+bike,carbondale,specialized,hybrid,specialized-hybrid-2,s
+bike,basalt,giant,hybrid,giant-hybrid-2,l
+bike,aspen,specialized,road,specialized-road-1,l
+bike,basalt,giant,mountain,giant-mountain-2,m
+bike,basalt,santa cruz,hybrid,santa cruz-hybrid-2,l
+bike,basalt,santa cruz,hybrid,santa cruz-hybrid-2,m
+bike,aspen,santa cruz,mountain,santa cruz-mountain-1,l
+bike,aspen,specialized,mountain,specialized-mountain-1,s
+bike,basalt,specialized,hybrid,specialized-hybrid-2,l
+bike,basalt,giant,mountain,giant-mountain-2,l
+bike,carbondale,specialized,mountain,specialized-mountain-2,m
+bike,aspen,giant,hybrid,giant-hybrid-1,l
+bike,aspen,santa cruz,hybrid,santa cruz-hybrid-2,m
+bike,carbondale,specialized,hybrid,specialized-hybrid-2,l
+bike,basalt,specialized,hybrid,specialized-hybrid-2,l
+bike,carbondale,santa cruz,mountain,santa cruz-mountain-2,l
+bike,carbondale,giant,hybrid,giant-hybrid-1,s
+bike,aspen,santa cruz,mountain,santa cruz-mountain-2,s
+bike,aspen,santa cruz,road,santa cruz-road-2,m
+bike,basalt,santa cruz,road,santa cruz-road-2,m
+bike,carbondale,santa cruz,road,santa cruz-road-2,m
+bike,aspen,santa cruz,road,santa cruz-road-2,s
+bike,aspen,giant,hybrid,giant-hybrid-2,m
+bike,carbondale,specialized,mountain,specialized-mountain-1,l
+bike,carbondale,santa cruz,hybrid,santa cruz-hybrid-2,m
+bike,basalt,specialized,road,specialized-road-2,l
+bike,aspen,giant,mountain,giant-mountain-2,l
+bike,carbondale,santa cruz,hybrid,santa cruz-hybrid-1,s
+bike,aspen,giant,road,giant-road-1,s
+bike,aspen,giant,mountain,giant-mountain-1,m
+bike,basalt,santa cruz,hybrid,santa cruz-hybrid-1,m
+bike,carbondale,specialized,mountain,specialized-mountain-2,l
+bike,basalt,santa cruz,road,santa cruz-road-1,l
+bike,carbondale,santa cruz,road,santa cruz-road-2,s
+bike,carbondale,specialized,hybrid,specialized-hybrid-1,s
+bike,aspen,giant,road,giant-road-2,l
+bike,carbondale,giant,hybrid,giant-hybrid-1,s
+bike,carbondale,giant,hybrid,giant-hybrid-2,m
+bike,aspen,specialized,mountain,specialized-mountain-1,s
+bike,aspen,specialized,hybrid,specialized-hybrid-2,s
+bike,basalt,santa cruz,mountain,santa cruz-mountain-2,s
+bike,aspen,santa cruz,hybrid,santa cruz-hybrid-1,s
+bike,aspen,specialized,road,specialized-road-1,l
+bike,aspen,giant,hybrid,giant-hybrid-2,s
+bike,aspen,giant,road,giant-road-2,s
+bike,basalt,giant,road,giant-road-1,s
+bike,aspen,santa cruz,hybrid,santa cruz-hybrid-2,l
+bike,basalt,giant,hybrid,giant-hybrid-1,m
+bike,carbondale,santa cruz,hybrid,santa cruz-hybrid-2,s
+bike,basalt,specialized,hybrid,specialized-hybrid-1,s
+bike,carbondale,giant,hybrid,giant-hybrid-1,l
+bike,aspen,santa cruz,road,santa cruz-road-1,l
+bike,aspen,specialized,hybrid,specialized-hybrid-2,m
+bike,aspen,santa cruz,mountain,santa cruz-mountain-1,l
+bike,aspen,santa cruz,mountain,santa cruz-mountain-1,s
+bike,carbondale,specialized,road,specialized-road-1,m
+bike,aspen,santa cruz,hybrid,santa cruz-hybrid-1,l
+bike,carbondale,specialized,mountain,specialized-mountain-1,m
+bike,basalt,giant,road,giant-road-1,s
+bike,basalt,specialized,mountain,specialized-mountain-1,s
+bike,aspen,santa cruz,hybrid,santa cruz-hybrid-2,s
+bike,basalt,giant,hybrid,giant-hybrid-2,m
+bike,carbondale,santa cruz,road,santa cruz-road-2,l
+bike,aspen,specialized,mountain,specialized-mountain-1,l
+bike,basalt,santa cruz,road,santa cruz-road-1,l
+bike,basalt,specialized,road,specialized-road-2,l
+bike,basalt,specialized,road,specialized-road-2,m
+bike,basalt,giant,road,giant-road-1,l
+bike,basalt,specialized,hybrid,specialized-hybrid-2,l
+bike,basalt,specialized,mountain,specialized-mountain-2,m
+bike,basalt,specialized,mountain,specialized-mountain-1,l
+bike,aspen,santa cruz,hybrid,santa cruz-hybrid-1,s
+bike,aspen,santa cruz,hybrid,santa cruz-hybrid-1,s
+bike,basalt,giant,hybrid,giant-hybrid-2,l
+bike,basalt,santa cruz,hybrid,santa cruz-hybrid-1,s
+bike,basalt,santa cruz,road,santa cruz-road-1,m
+bike,aspen,santa cruz,hybrid,santa cruz-hybrid-2,m
+bike,basalt,santa cruz,road,santa cruz-road-2,m
+bike,aspen,specialized,hybrid,specialized-hybrid-1,s
+bike,aspen,giant,hybrid,giant-hybrid-1,l
+bike,carbondale,specialized,mountain,specialized-mountain-1,m
+bike,aspen,santa cruz,road,santa cruz-road-2,m
+bike,basalt,giant,mountain,giant-mountain-1,s
+bike,basalt,giant,road,giant-road-2,s
+bike,aspen,giant,hybrid,giant-hybrid-1,m
+bike,basalt,santa cruz,road,santa cruz-road-1,m
+bike,carbondale,specialized,hybrid,specialized-hybrid-1,l
+bike,carbondale,specialized,hybrid,specialized-hybrid-1,l
+bike,aspen,giant,hybrid,giant-hybrid-2,l
+bike,basalt,giant,road,giant-road-2,l
+bike,basalt,giant,road,giant-road-1,s
+bike,aspen,specialized,road,specialized-road-2,m
+bike,basalt,santa cruz,hybrid,santa cruz-hybrid-1,s
+bike,aspen,santa cruz,road,santa cruz-road-2,m
+bike,basalt,giant,hybrid,giant-hybrid-2,s
+bike,aspen,specialized,hybrid,specialized-hybrid-2,l
+bike,basalt,santa cruz,mountain,santa cruz-mountain-1,m
+bike,aspen,santa cruz,road,santa cruz-road-2,m
+bike,aspen,giant,hybrid,giant-hybrid-2,s
+bike,aspen,specialized,road,specialized-road-2,l
+bike,carbondale,giant,mountain,giant-mountain-2,m
+bike,carbondale,santa cruz,mountain,santa cruz-mountain-1,m
+bike,basalt,specialized,hybrid,specialized-hybrid-1,s
+bike,carbondale,giant,road,giant-road-2,m
+bike,carbondale,giant,road,giant-road-1,l
+bike,basalt,specialized,mountain,specialized-mountain-1,l
+bike,aspen,giant,mountain,giant-mountain-2,m
+bike,basalt,santa cruz,mountain,santa cruz-mountain-2,s
+bike,carbondale,santa cruz,mountain,santa cruz-mountain-2,m
+bike,aspen,giant,hybrid,giant-hybrid-2,s
+bike,aspen,santa cruz,hybrid,santa cruz-hybrid-1,l
+bike,aspen,santa cruz,road,santa cruz-road-2,s
+bike,aspen,giant,road,giant-road-1,s
+bike,aspen,specialized,road,specialized-road-1,m
+bike,carbondale,specialized,road,specialized-road-1,s
+bike,aspen,giant,mountain,giant-mountain-2,s
+bike,basalt,giant,hybrid,giant-hybrid-2,s
+bike,aspen,specialized,road,specialized-road-2,m
+bike,carbondale,giant,mountain,giant-mountain-1,m
+bike,carbondale,giant,hybrid,giant-hybrid-2,l
+bike,carbondale,giant,hybrid,giant-hybrid-1,l
+bike,carbondale,santa cruz,hybrid,santa cruz-hybrid-2,m
+bike,basalt,giant,mountain,giant-mountain-1,m
+bike,basalt,specialized,mountain,specialized-mountain-2,s
+bike,carbondale,giant,mountain,giant-mountain-2,l
+bike,carbondale,specialized,hybrid,specialized-hybrid-1,s
+bike,carbondale,specialized,road,specialized-road-1,s
+bike,aspen,santa cruz,road,santa cruz-road-1,l
+bike,aspen,santa cruz,road,santa cruz-road-1,s
+bike,carbondale,santa cruz,mountain,santa cruz-mountain-2,l
+bike,carbondale,specialized,road,specialized-road-2,l
+bike,basalt,specialized,road,specialized-road-1,s
+bike,basalt,specialized,road,specialized-road-2,l
+bike,basalt,giant,hybrid,giant-hybrid-2,s
+bike,aspen,specialized,road,specialized-road-1,m
+bike,aspen,specialized,road,specialized-road-2,s
+bike,basalt,specialized,road,specialized-road-2,s
+bike,aspen,specialized,hybrid,specialized-hybrid-2,l
+bike,carbondale,specialized,road,specialized-road-2,m
+bike,carbondale,santa cruz,road,santa cruz-road-2,l
+bike,basalt,giant,hybrid,giant-hybrid-2,s
+bike,basalt,giant,hybrid,giant-hybrid-2,l
+bike,aspen,specialized,road,specialized-road-1,m
+bike,carbondale,santa cruz,mountain,santa cruz-mountain-1,m
+bike,aspen,giant,hybrid,giant-hybrid-2,m
+bike,basalt,specialized,hybrid,specialized-hybrid-1,l
+bike,basalt,specialized,road,specialized-road-1,m
+bike,basalt,specialized,hybrid,specialized-hybrid-2,s
+bike,basalt,giant,road,giant-road-2,s
+bike,aspen,specialized,mountain,specialized-mountain-2,l
+bike,basalt,santa cruz,mountain,santa cruz-mountain-2,m
+bike,aspen,giant,mountain,giant-mountain-2,m
+bike,aspen,specialized,mountain,specialized-mountain-1,m
+bike,carbondale,specialized,hybrid,specialized-hybrid-1,s
+bike,carbondale,santa cruz,mountain,santa cruz-mountain-2,s
+bike,basalt,santa cruz,road,santa cruz-road-2,l
+bike,aspen,giant,road,giant-road-1,m
+bike,carbondale,santa cruz,hybrid,santa cruz-hybrid-2,l
+bike,aspen,giant,road,giant-road-2,s
+bike,aspen,specialized,mountain,specialized-mountain-2,m
+bike,aspen,giant,road,giant-road-1,l
+bike,carbondale,specialized,mountain,specialized-mountain-2,m
+bike,aspen,santa cruz,road,santa cruz-road-1,s
+bike,basalt,giant,mountain,giant-mountain-1,s
+bike,basalt,specialized,mountain,specialized-mountain-1,l
+bike,basalt,giant,road,giant-road-1,m
+bike,basalt,specialized,road,specialized-road-1,s
+bike,basalt,giant,hybrid,giant-hybrid-1,l
+bike,aspen,giant,mountain,giant-mountain-1,m
+bike,aspen,santa cruz,road,santa cruz-road-1,l
+bike,aspen,giant,road,giant-road-2,s
+bike,aspen,santa cruz,hybrid,santa cruz-hybrid-2,s
+bike,carbondale,santa cruz,hybrid,santa cruz-hybrid-2,s
+bike,aspen,santa cruz,road,santa cruz-road-2,m
+bike,basalt,specialized,hybrid,specialized-hybrid-2,l
+bike,carbondale,giant,hybrid,giant-hybrid-2,s
+bike,carbondale,santa cruz,mountain,santa cruz-mountain-2,s
+bike,basalt,santa cruz,road,santa cruz-road-1,m
+bike,carbondale,santa cruz,road,santa cruz-road-1,s
+bike,aspen,santa cruz,mountain,santa cruz-mountain-2,l
+bike,carbondale,giant,mountain,giant-mountain-2,m
+bike,carbondale,giant,hybrid,giant-hybrid-1,s
+bike,aspen,santa cruz,road,santa cruz-road-1,s
+bike,aspen,giant,road,giant-road-2,l
+bike,basalt,santa cruz,mountain,santa cruz-mountain-2,l
+bike,aspen,santa cruz,mountain,santa cruz-mountain-1,l
+bike,aspen,santa cruz,mountain,santa cruz-mountain-2,m
+bike,basalt,specialized,road,specialized-road-2,m
+bike,aspen,giant,hybrid,giant-hybrid-1,s
+bike,carbondale,santa cruz,hybrid,santa cruz-hybrid-1,s
+bike,basalt,giant,mountain,giant-mountain-1,m
+bike,aspen,santa cruz,hybrid,santa cruz-hybrid-2,s
+bike,aspen,santa cruz,road,santa cruz-road-2,m
+bike,aspen,specialized,mountain,specialized-mountain-2,l
+bike,basalt,santa cruz,hybrid,santa cruz-hybrid-1,l
+bike,aspen,giant,road,giant-road-2,s
+bike,aspen,santa cruz,road,santa cruz-road-1,s
+bike,aspen,santa cruz,road,santa cruz-road-2,m
+bike,carbondale,specialized,mountain,specialized-mountain-1,s
+bike,carbondale,specialized,hybrid,specialized-hybrid-1,l
+bike,carbondale,specialized,road,specialized-road-1,l
+bike,carbondale,giant,hybrid,giant-hybrid-2,l
+bike,basalt,giant,road,giant-road-2,m
+bike,carbondale,specialized,road,specialized-road-1,l
+bike,aspen,specialized,hybrid,specialized-hybrid-2,m
+bike,aspen,santa cruz,mountain,santa cruz-mountain-1,s
+bike,basalt,giant,mountain,giant-mountain-1,l
+bike,carbondale,specialized,hybrid,specialized-hybrid-1,m
+bike,aspen,giant,road,giant-road-1,s
+bike,aspen,santa cruz,road,santa cruz-road-2,s
+bike,aspen,specialized,hybrid,specialized-hybrid-2,l
+bike,aspen,giant,hybrid,giant-hybrid-1,s
+bike,carbondale,giant,mountain,giant-mountain-1,s
+bike,carbondale,specialized,hybrid,specialized-hybrid-2,l
+bike,aspen,specialized,mountain,specialized-mountain-1,s
+bike,basalt,santa cruz,hybrid,santa cruz-hybrid-1,s
+bike,basalt,giant,hybrid,giant-hybrid-1,s
+bike,carbondale,giant,hybrid,giant-hybrid-2,m
+bike,aspen,specialized,road,specialized-road-2,s
+bike,carbondale,specialized,mountain,specialized-mountain-1,m
+bike,aspen,specialized,hybrid,specialized-hybrid-1,l
+bike,carbondale,giant,mountain,giant-mountain-2,m
+bike,basalt,specialized,hybrid,specialized-hybrid-2,m
+bike,basalt,santa cruz,road,santa cruz-road-2,l
+bike,aspen,specialized,mountain,specialized-mountain-1,s
+bike,carbondale,specialized,road,specialized-road-2,m
+bike,carbondale,specialized,hybrid,specialized-hybrid-1,l
+bike,basalt,giant,road,giant-road-1,l
+bike,carbondale,santa cruz,road,santa cruz-road-1,m
+bike,aspen,santa cruz,hybrid,santa cruz-hybrid-2,l
+bike,carbondale,specialized,mountain,specialized-mountain-2,l
+bike,carbondale,specialized,mountain,specialized-mountain-2,m
+bike,basalt,giant,road,giant-road-1,l
+bike,carbondale,specialized,road,specialized-road-1,l
+bike,basalt,specialized,road,specialized-road-2,s
+bike,carbondale,specialized,road,specialized-road-1,l
+bike,aspen,santa cruz,road,santa cruz-road-1,l
+bike,carbondale,santa cruz,hybrid,santa cruz-hybrid-2,m
+bike,basalt,specialized,mountain,specialized-mountain-1,m
+bike,aspen,santa cruz,hybrid,santa cruz-hybrid-2,l
+bike,basalt,giant,mountain,giant-mountain-2,m
+bike,basalt,giant,road,giant-road-2,s
+bike,carbondale,specialized,hybrid,specialized-hybrid-1,s
+bike,carbondale,santa cruz,road,santa cruz-road-1,m
+bike,basalt,specialized,hybrid,specialized-hybrid-2,l
+bike,basalt,santa cruz,hybrid,santa cruz-hybrid-1,m
+bike,carbondale,santa cruz,mountain,santa cruz-mountain-2,m
+bike,carbondale,santa cruz,mountain,santa cruz-mountain-2,m
+bike,aspen,giant,mountain,giant-mountain-1,s
+bike,aspen,specialized,mountain,specialized-mountain-1,m
+bike,aspen,giant,road,giant-road-1,s
+bike,basalt,specialized,hybrid,specialized-hybrid-2,l
+bike,aspen,specialized,road,specialized-road-2,m
+bike,aspen,specialized,mountain,specialized-mountain-1,m
+bike,aspen,giant,road,giant-road-2,s
+bike,carbondale,giant,hybrid,giant-hybrid-2,m
+bike,aspen,giant,hybrid,giant-hybrid-2,m
+bike,basalt,giant,mountain,giant-mountain-1,l
+bike,carbondale,specialized,hybrid,specialized-hybrid-1,l
+bike,aspen,specialized,road,specialized-road-1,m
+bike,carbondale,specialized,road,specialized-road-1,l
+bike,basalt,santa cruz,mountain,santa cruz-mountain-1,l
+bike,carbondale,giant,road,giant-road-2,m
+bike,carbondale,specialized,road,specialized-road-1,l
+bike,basalt,specialized,hybrid,specialized-hybrid-2,l
+bike,carbondale,santa cruz,mountain,santa cruz-mountain-2,m
+bike,carbondale,specialized,road,specialized-road-2,l
+bike,basalt,santa cruz,road,santa cruz-road-2,s
+bike,aspen,giant,mountain,giant-mountain-1,m
+bike,carbondale,santa cruz,mountain,santa cruz-mountain-1,m
+bike,aspen,santa cruz,road,santa cruz-road-1,m
+bike,carbondale,santa cruz,hybrid,santa cruz-hybrid-1,s
+bike,aspen,giant,hybrid,giant-hybrid-1,m
+bike,carbondale,giant,road,giant-road-2,s
+bike,basalt,santa cruz,hybrid,santa cruz-hybrid-1,s
+bike,carbondale,specialized,mountain,specialized-mountain-2,m
+bike,basalt,specialized,hybrid,specialized-hybrid-1,l
+bike,aspen,specialized,hybrid,specialized-hybrid-2,m
+bike,aspen,giant,road,giant-road-2,s
+bike,carbondale,giant,road,giant-road-2,m
+bike,basalt,santa cruz,road,santa cruz-road-2,l
+bike,basalt,santa cruz,road,santa cruz-road-2,l
+bike,carbondale,specialized,road,specialized-road-2,l
+bike,aspen,specialized,hybrid,specialized-hybrid-1,s
