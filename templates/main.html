@@ -40,8 +40,7 @@
 				</tr>
 				<tr>
 					<td>
-						<input type="input" name="search" placeholder="Search...">
-						<button onclick="">Search</button>
+						
 						<!-- <button onclick="toggle_filters();">Filters</button> -->
 					</td>
 					<td>
@@ -51,7 +50,7 @@
 			</table>
 
 			<div id="main">
-				<form action="/check_out">
+				<!-- <form action="/check_out"> -->
 					<table id="items">
 						<tr>
 							<th>Select</th>
@@ -66,9 +65,17 @@
 							</td>
 							{% for column, options in columns.iteritems() %}
 							<th>
-								{% for option in options %}
-								{{option}}: <input type="checkbox" class="filter-parameter" value="{{column}}-{{option}}" onclick="update_filters()"><br>
-								{% endfor %}
+								{% if options|count < 4 %}
+
+									{% for option in options %}
+									{{option}}: <input type="checkbox" class="filter-parameter" value="{{column}}-{{option}}" onclick="update_filters()"><br>
+									{% endfor %}
+
+								{% else %}
+
+									<input class="filter-parameter" type="input" placeholder="Search..." onkeypress="fuzzy_search({{column}})">
+
+								{% endif %}
 							</th>
 							{% endfor %}
 						</tr>
@@ -87,7 +94,7 @@
 						</tr>
 						{% endfor %}
 					</table>
-				</form>
+				<!-- </form> -->
 			</div>
 		</div>
 
