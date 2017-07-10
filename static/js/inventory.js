@@ -20,14 +20,24 @@ function update_filters() {
 		items[i].style.display = "none";
 		
 		// Pull item ids
-		
 		let ids = [...items[i].childNodes].map(x => x.id);
+		
 		// Find matches between ids and search paramets
 		let matches = filters.filter(x => ids.includes(x)).length
 
 		if (matches == filters.length) {
 			items[i].style.display = "table-row";
 		}
+	}
+}
+
+function sort_table(column) {
+	rows = [...document.getElementsByClassName("inventory-item")]
+	sorted = rows.sort(a, b => {
+		return (a > b)? 1 : -1;
+	})
+	for (var i = rows.length - 1; i >= 0; i--) {
+		rows[i] = sorted[i]
 	}
 }
 
