@@ -25,7 +25,7 @@ I understand the wireframe shouldn't work, but I want to try something new. Desi
 
 # General TODO
 - [x] inventory searching
-- [ ] inventory sorting
+- [ ]~ inventory sorting
 - [ ] implement actual authentication
 - [ ] reservation system
 - [ ] inventory editing
