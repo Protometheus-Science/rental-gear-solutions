@@ -31,7 +31,15 @@ function update_filters() {
 	}
 }
 
-function sort_table(column) {
+function sort_table(column, current) {
+	// Style columns
+	heads = [...document.getElementsByClassName("table-head")]
+	for (var i = heads.length - 1; i >= 0; i--) {
+		heads[i].classList.remove("sorted");
+	}
+	current.classList.add("sorted")
+
+	// Sort rows
 	rows = [...document.getElementsByClassName("inventory-item")]
 	sorted = rows.sort()
 	for (var i = rows.length - 1; i >= 0; i--) {
