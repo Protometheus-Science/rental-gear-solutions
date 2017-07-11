@@ -40,10 +40,20 @@ function sort_table(column, current) {
 	current.classList.add("sorted")
 
 	// Sort rows
-	rows = [...document.getElementsByClassName("inventory-item")]
-	sorted = rows.sort()
+	let get_child = x => x.getElementsByClassName(column)[0].id.toUpperCase();
+	sorted = [...document.getElementsByClassName("inventory-item")]
+	sorted.sort((aid, bid) => {
+		let a = get_child(aid)
+		let b = get_child(bid)
+		if (a == b) {
+			return 0
+		}
+		return (a < b)? 1 : -1;
+	})
+
+	let rows = document.getElementsByClassName("inventory-item")
 	for (var i = rows.length - 1; i >= 0; i--) {
-		rows[i] = sorted[i]
+		rows[i].outerHTML = sorted[i].outerHTML
 	}
 }
 

@@ -25,6 +25,10 @@
 				text-align: center;
 			}
 
+			.sorted {
+				font-weight: italic;
+			}
+
 		</style>
 	</head>
 	<body>
@@ -55,7 +59,7 @@
 						<tr>
 							<th>Select</th>
 							{% for column, _ in columns.iteritems() %}
-							<th>{{ column }}</th>
+							<th onclick="sort_table('{{ column }}', this)" class="table-head">{{ column }}</th>
 							{% endfor %}
 						</tr>
 						<tr id="filters">
@@ -89,7 +93,7 @@
 								</select> / {{item.count}}
 							</td>
 							{% for column, _ in columns.iteritems() %}
-							<td id="{{column}}-{{item[column]}}">{{item[column]}}</td>
+							<td class="{{column}}" id="{{column}}-{{item[column]}}">{{item[column]}}</td>
 							{% endfor %}
 						</tr>
 						{% endfor %}
