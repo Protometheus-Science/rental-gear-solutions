@@ -33,9 +33,7 @@ function update_filters() {
 
 function sort_table(column) {
 	rows = [...document.getElementsByClassName("inventory-item")]
-	sorted = rows.sort(a, b => {
-		return (a > b)? 1 : -1;
-	})
+	sorted = rows.sort()
 	for (var i = rows.length - 1; i >= 0; i--) {
 		rows[i] = sorted[i]
 	}
