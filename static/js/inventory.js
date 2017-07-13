@@ -23,9 +23,9 @@ function update_filters() {
 		let ids = [...items[i].childNodes].map(x => x.id);
 		
 		// Find matches between ids and search paramets
-		let matches = filters.filter(x => ids.includes(x)).length
+		let matches = filters.filter(x => ids.includes(x))
 
-		if (matches == filters.length) {
+		if (matches.length == filters.length) {
 			items[i].style.display = "table-row";
 		}
 	}
