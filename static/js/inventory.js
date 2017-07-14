@@ -58,5 +58,18 @@ function sort_table(column, current) {
 }
 
 function fuzzy_search(column) {
-	console.log("searching " + column)
+	// Pull all items
+	items = [...document.getElementsByClassName("inventory-item")]
+	
+	for (var i = items.length - 1; i >= 0; i--) {
+		// Pull item ids
+		let ids = [...items[i].childNodes].map(x => x.id);
+		
+		// Find matches between ids and search paramets
+		let matches = filters.filter(x => ids.includes(x))
+
+		if (matches.length == filters.length) {
+			items[i].style.display = "table-row";
+		}
+	}
 }

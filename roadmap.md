@@ -24,7 +24,7 @@ I understand the wireframe shouldn't work, but I want to try something new. Desi
 07/09: Great so I got sorting working all crispy and neat. Unfortunately, I just remembered how complicated names are. I'll have to add some limiter to say "if more than n options, just make it text based" which will also nix the search bar, which is cool
 
 # General TODO
-- [x] inventory searching
+- [x] inventory searching (Allow for multiple options per column)
 - [ ]~ inventory sorting
 - [ ] implement actual authentication
 - [ ] reservation system
